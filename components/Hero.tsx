@@ -1,8 +1,15 @@
+"use client";
+
 import { FaArrowRight } from "react-icons/fa6";
 import MagicButton from "./ui/magic-button";
-import { Spotlight } from "./ui/Spotlight";
+import { Spotlight } from "./ui/spotlight";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
 import { BackgroundBeams } from "./ui/background-beams";
+import { IoMdDownload } from "react-icons/io";
+
+const handleCV = () => {
+  window.open("/ANTOINE VIGNES-1.pdf");
+};
 
 const Hero = () => {
   return (
@@ -34,13 +41,21 @@ const Hero = () => {
             Bonjour, je m&apos;appelle Antoine, développeur full-stack basé à
             Toulouse
           </p>
-          <a href="#about">
+          <div className="flex gap-2">
+            <a href="#about">
+              <MagicButton
+                title="Voir mes projets"
+                icon={<FaArrowRight />}
+                position="right"
+              />
+            </a>
             <MagicButton
-              title="Voir mes projets"
-              icon={<FaArrowRight />}
+              title="Télécharger mon CV"
+              icon={<IoMdDownload />}
               position="right"
+              handleClick={handleCV}
             />
-          </a>
+          </div>
         </div>
       </div>
       <BackgroundBeams />

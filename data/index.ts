@@ -7,7 +7,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "De développeur full-stack ",
+    title: "Développeur full-stack ",
     description: "Je suis à la recherche d'une alternance ",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full object-cover",
@@ -17,8 +17,8 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "Je suis basé à Toulouse",
-    description: "",
+    title: "Basé à Toulouse",
+    description: "Je reste ouvert au télétravail",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -60,7 +60,7 @@ export const gridItems = [
   {
     id: 6,
     title: "Mon profil vous intéresse ?",
-    description: "Contactez moi!",
+    description: "Envoyez moi un message !",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-center md:max-w-full max-w-60 text-center",
