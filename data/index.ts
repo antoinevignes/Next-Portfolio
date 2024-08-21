@@ -1,7 +1,6 @@
 export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "A propos", link: "#about" },
+  { name: "Projets", link: "#projects" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -76,15 +75,29 @@ export const projects = [
     title: "Jotion, un clone de Notion",
     des: "Un clone de Notion, créé avec Next.js, Tailwind, Shadcn, et Convex",
     img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
-    link: "https://github.com/antoinevignes/notion-clone",
+    iconLists: [
+      "/next.svg",
+      "/re.svg",
+      "/ts.svg",
+      "/tail.svg",
+      "/convex.png",
+      "/c.svg",
+    ],
+    link: "https://note-taking-app-six-mauve.vercel.app/",
   },
   {
     id: 2,
-    title: "FDrive, application de stockage de fichiers",
-    des: "Application de stockage de fichiers, similaire à Google Drive",
+    title: "FDrive, stockage de fichiers",
+    des: "Application de stockage de fichiers, similaire à Google Drive, créé avec Next.js et Convex",
     img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    iconLists: [
+      "/next.svg",
+      "/re.svg",
+      "/ts.svg",
+      "/tail.svg",
+      "/convex.png",
+      "/c.svg",
+    ],
     link: "https://github.com/antoinevignes/file-storage-app",
   },
 ];
