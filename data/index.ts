@@ -7,8 +7,8 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "Développeur full-stack ",
-    description: "Je suis à la recherche d'une alternance ",
+    title: "Je suis à la recherche d'une alternance ",
+    description: "Pour propulser ma carrière ",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full object-cover",
     titleClassName: "justify-end",
