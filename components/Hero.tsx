@@ -37,7 +37,7 @@ const Hero = () => {
             En formation à la 3W Academy
           </p>
           <div className="flex flex-col gap-2">
-            <a href="#about">
+            <a href="#projects">
               <MagicButton
                 title="Voir mes projets"
                 icon={<FaArrowRight />}

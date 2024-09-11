@@ -74,7 +74,7 @@ export const projects = [
     id: 1,
     title: "Jotion, un clone de Notion",
     des: "Un clone de Notion, créé avec Next.js, Tailwind, Shadcn, et Convex",
-    img: "/p1.svg",
+    img: "/jotion.png",
     iconLists: [
       "/next.svg",
       "/re.svg",
@@ -89,7 +89,7 @@ export const projects = [
     id: 2,
     title: "FDrive, stockage de fichiers",
     des: "Application de stockage de fichiers, similaire à Google Drive, créé avec Next.js et Convex",
-    img: "/p2.svg",
+    img: "fdrive.png",
     iconLists: [
       "/next.svg",
       "/re.svg",
