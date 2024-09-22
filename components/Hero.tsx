@@ -8,7 +8,7 @@ import { BackgroundBeams } from "./ui/background-beams";
 import { IoMdDownload } from "react-icons/io";
 
 const handleCV = () => {
-  window.open("/ANTOINE VIGNES-1.pdf");
+  window.open("/antoine-vignes-cv.pdf");
 };
 
 const Hero = () => {
